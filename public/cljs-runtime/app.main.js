@@ -1,6 +1,6 @@
 goog.provide('app.main');
 app.main.app = (function app$main$app(){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),"Hello CLJS!"], null);
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),"New Prototype using Node, Express, and ClojureScript!"], null);
 });
 app.main.mount = (function app$main$mount(){
 return reagent.core.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.main.app], null),document.getElementById("app"));

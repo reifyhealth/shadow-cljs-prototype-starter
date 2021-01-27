@@ -4,7 +4,7 @@
 
 (defn app
   []
-  [:h1 "Hello CLJS!"])
+  [:h1 "New Prototype using Node, Express, and ClojureScript!"])
 
 (defn mount []
   (r/render

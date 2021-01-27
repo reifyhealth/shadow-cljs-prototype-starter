@@ -9,7 +9,7 @@
   "scripts": {
     "scss": "node-sass scss/main.scss public/stylesheets/main.css",
     "watch": "shadow-cljs watch app",
-    "release": "shadow-cljs release app",
+    "build": "shadow-cljs release app",
     "start": "node index.js",
     "test": "node test.js"
   },
