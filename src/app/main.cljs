@@ -1,10 +1,20 @@
 (ns app.main
   (:require
-   [reagent.core :as r :refer [atom]]))
+   [reagent.core :as r :refer [atom]]
+   ["picasso-pkg" :refer [Button message.info]]))
 
 (defn app
   []
-  [:h1 "New Prototype using Node, Express, and ClojureScript!"])
+  [:div.padding-xl
+   [:h1 "ClojureScript!"]
+   [:> Button
+    {:on-click
+      #(message.info
+        #js{:content "Boom!"
+            :icon
+            (r/as-element
+              [:span.margin-right-sm "💥"])})}
+    "Click me"]])
 
 (defn mount []
   (r/render
@@ -18,5 +28,5 @@
   (mount))
 
 (defn main! []
-  (println "App loaded...")
+  (println "App loaded!")
   (mount))

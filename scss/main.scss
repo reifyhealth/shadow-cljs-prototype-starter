@@ -1,11 +1,7 @@
-$custom: tomato;
-$custom-color: white;
+@import '../node_modules/picasso-pkg/dist/stylesheets/picasso.base.scss';
 
-body {
-  background: $custom;
-  font-family: sans-serif;
-
-  h1 {
-    color: $custom-color;
-  }
-}
+$fa-font-path: "/fonts/webfonts";
+@import "../node_modules/picasso-pkg/dist/stylesheets/fontawesome/fontawesome.scss";
+@import "../node_modules/picasso-pkg/dist/stylesheets/fontawesome/regular.scss";
+@import "../node_modules/picasso-pkg/dist/stylesheets/fontawesome/solid.scss";
+@import "../node_modules/picasso-pkg/dist/stylesheets/fontawesome/light.scss";

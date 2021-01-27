@@ -14,7 +14,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "antd": "^4.11.2",
+    "picasso-pkg": "git+ssh://git@github.com/reifyhealth/picasso-pkg.git#a04dee971ad44c6574f33d2826469a6c113815f9",
     "ejs": "^3.1.5",
     "express": "^4.15.2",
     "express-basic-auth": "^1.2.0",
