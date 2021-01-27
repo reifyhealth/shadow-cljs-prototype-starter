@@ -26,12 +26,22 @@ $ heroku local web
 ```
 
 ### Running the CLJS
-In another terminal window, run the ClojureScript. To compile the CLJS located in `./src/app`, run `npm run watch`.
+In another terminal window, run the ClojureScript. To compile the CLJS located in `./src/app`, run:
+
+```
+$ npm run watch
+```
 
 ### Running the SCSS
 In another terminal window, compile your SCSS. To compile the SCSS, run: 
 
-`node-sass scss/main.scss public/stylesheets/main.css` add `-w` to watch for changes.
+```
+$ node-sass scss/main.scss public/stylesheets/main.css
+
+// To watch for changes, add `-w` or `--watch`
+
+$ node-sass scss/main.scss public/stylesheets/main.css -w
+```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
