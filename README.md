@@ -6,24 +6,35 @@ This application supports the [Getting Started on Heroku with Node.js](https://d
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/), Clojurescript, and the [Heroku CLI](https://cli.heroku.com/) installed.
 
-```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
+_TL;DR_
+In 3 terminal windows, run:
+* `$ npm run start`
+* `$ npm run watch`
+* `$ npm run SCSS`
 ```
-or `heroku local web`.
+
+$ git clone https://github.com/andreortiz82/shadow-cljs-prototype-starter.git
+$ cd shadow-cljs-prototype-starter
+$ npm install
+$ npm run start
+
+// You can also run this instead of npm start: 
+$ heroku local web
+
+```
 
 ### Running the CLJS
-To compile the CLJS located in `./src/app`, run `npm run watch`.
+In another terminal window, run the ClojureScript. To compile the CLJS located in `./src/app`, run `npm run watch`.
 
 ### Running the SCSS
-To compile the SCSS, run: `node-sass scss/main.scss public/stylesheets/main.css`
-To watch the SCSS, run: `node-sass scss/main.scss public/stylesheets/main.css -w`
+In another terminal window, compile your SCSS. To compile the SCSS, run: 
+
+`node-sass scss/main.scss public/stylesheets/main.css` add `-w` to watch for changes.
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
+
 
 ## Deploying to Heroku
 
