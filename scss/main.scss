@@ -1,0 +1,11 @@
+$custom: black;
+$custom-color: white;
+
+body {
+  background: $custom;
+  font-family: sans-serif;
+
+  h1 {
+    color: $custom-color;
+  }
+}

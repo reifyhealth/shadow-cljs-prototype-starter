@@ -1,0 +1,47 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4 and ClojureScript.",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss/main.scss public/stylesheets/main.css",
+    "watch": "shadow-cljs watch app",
+    "release": "shadow-cljs release app",
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "antd": "^4.11.2",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
+    "express-basic-auth": "^1.2.0",
+    "faker": "^4.1.0",
+    "highlight.js": "9.18.1",
+    "moment": "^2.27.0",
+    "react": "16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "16.13.1",
+    "react-highlight.js": "1.0.7"
+  },
+  "devDependencies": {
+    "create-react-class": "^15.6.3",
+    "got": "^11.3.0",
+    "node-sass": "^5.0.0",
+    "shadow-cljs": "^2.11.1",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "ClojureScript"
+  ],
+  "license": "MIT"
+}
