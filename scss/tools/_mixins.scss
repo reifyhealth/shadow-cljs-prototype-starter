@@ -1,0 +1,26 @@
+@mixin shadow($options: $shadow-default) {
+  box-shadow:$options;
+  -webkit-box-shadow:$options;
+  -moz-box-shadow:$options;
+}
+
+@mixin border-radius($rad:$radius) {
+  border-radius: $rad;
+}
+
+@mixin gradient($c1, $c2) {
+  background: $c1;
+  background: linear-gradient(to right, $c1, $c2);
+}
+
+@mixin mq($point) {
+  @if $point == 'lg' {
+    @media (min-width: 1024px) { @content; }
+  }
+  @else if $point == 'md' {
+    @media (max-width: 1024px) { @content; }
+  }
+  @else if $point == 'sm' {
+    @media (max-width: 500px)  { @content; }
+  }
+}

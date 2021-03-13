@@ -16,8 +16,8 @@ reagent.core.is_client = reagent.impl.util.is_client;
  *  [:div.foo "Hi" [:strong "world!"]]
  */
 reagent.core.create_element = (function reagent$core$create_element(var_args){
-var G__38042 = arguments.length;
-switch (G__38042) {
+var G__38040 = arguments.length;
+switch (G__38040) {
 case 1:
 return reagent.core.create_element.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -84,15 +84,15 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$5(module$node_modules$react$i
 }));
 
 /** @this {Function} */
-(reagent.core.create_element.cljs$lang$applyTo = (function (seq38038){
-var G__38039 = cljs.core.first(seq38038);
-var seq38038__$1 = cljs.core.next(seq38038);
-var G__38040 = cljs.core.first(seq38038__$1);
-var seq38038__$2 = cljs.core.next(seq38038__$1);
-var G__38041 = cljs.core.first(seq38038__$2);
-var seq38038__$3 = cljs.core.next(seq38038__$2);
+(reagent.core.create_element.cljs$lang$applyTo = (function (seq38036){
+var G__38037 = cljs.core.first(seq38036);
+var seq38036__$1 = cljs.core.next(seq38036);
+var G__38038 = cljs.core.first(seq38036__$1);
+var seq38036__$2 = cljs.core.next(seq38036__$1);
+var G__38039 = cljs.core.first(seq38036__$2);
+var seq38036__$3 = cljs.core.next(seq38036__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__38039,G__38040,G__38041,seq38038__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__38037,G__38038,G__38039,seq38036__$3);
 }));
 
 (reagent.core.create_element.cljs$lang$maxFixedArity = (3));

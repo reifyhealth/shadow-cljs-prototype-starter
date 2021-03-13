@@ -1,0 +1,14 @@
+// Text formatting
+.text-lead { font-size: rem($font-lg); }
+.text-normal { font-weight: $font-normal; }
+.text-bold { font-weight: $font-bold }
+.text-heavy { font-weight: $font-heavy }
+.text-italic { font-style: italic; }
+.text-underline { text-decoration: underline; }
+.text-strike { text-decoration: line-through; }
+.text-uppercase { text-transform: uppercase; }
+.text-downcase { text-transform: lowercase; }
+.text-capitalize { text-transform: capitalize; }
+.text-align-center { text-align: center;}
+.text-align-right { text-align: right;}
+.text-align-left { text-align: left;}

@@ -1,7 +1,17 @@
-@import '../node_modules/picasso-pkg/dist/stylesheets/picasso.base.scss';
-
 $fa-font-path: "/fonts/webfonts";
-@import "../node_modules/picasso-pkg/dist/stylesheets/fontawesome/fontawesome.scss";
-@import "../node_modules/picasso-pkg/dist/stylesheets/fontawesome/regular.scss";
-@import "../node_modules/picasso-pkg/dist/stylesheets/fontawesome/solid.scss";
-@import "../node_modules/picasso-pkg/dist/stylesheets/fontawesome/light.scss";
+@import "fontawesome/duotone.scss";
+@import "settings/colors";
+@import "settings/variables";
+@import "settings/typography";
+
+@import "tools/mixins";
+@import "tools/functions";
+@import "tools/animations";
+
+@import "generic/global";
+@import "generic/colors";
+@import "generic/grid-layout";
+@import "generic/helpers";
+@import "generic/typography";
+
+@import "objects/welcome.scss";

@@ -7,24 +7,25 @@
   },
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass scss/main.scss public/stylesheets/main.css",
+    "scss": "node-sass scss/main.scss public/stylesheets/main.css -w",
     "watch": "shadow-cljs watch app",
     "release": "shadow-cljs release app",
     "start": "node index.js",
     "test": "node test.js"
   },
   "dependencies": {
-    "picasso-pkg": "git+ssh://git@github.com/reifyhealth/picasso-pkg.git#a04dee971ad44c6574f33d2826469a6c113815f9",
     "ejs": "^3.1.5",
     "express": "^4.15.2",
     "express-basic-auth": "^1.2.0",
     "faker": "^4.1.0",
-    "highlight.js": "9.18.1",
+    "highlight.js": "^9.18.1",
     "moment": "^2.27.0",
+    "antd": "4.13.1",
     "react": "16.13.1",
-    "react-beautiful-dnd": "^13.0.0",
     "react-dom": "16.13.1",
-    "react-highlight.js": "1.0.7"
+    "react-highlight.js": "1.0.7",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.3"
   },
   "devDependencies": {
     "create-react-class": "^15.6.3",

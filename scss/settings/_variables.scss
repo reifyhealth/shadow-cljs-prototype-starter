@@ -1,0 +1,25 @@
+$radius: 3px;
+$round: 1000px;
+$bounce: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+$transition: all 0.5s;
+$spacing: 20;
+$margin-and-padding-breaks: (0, 8, 10, 16, 20, 24, 30, 40, 50, 60, 70, 80, 90, 100);
+
+$size-xs: 4;
+$size-sm: 8;
+$size-md: 16;
+$size-lg: 24;
+$size-xl: 32;
+$size-xxl: 64;
+
+$sizing-breaks: (
+  xs: $size-xs,
+  sm: $size-sm,
+  md: $size-md,
+  lg: $size-lg,
+  xl: $size-xl,
+  xxl: $size-xxl);
+
+$grid-columns: 12;
+$tip-size: 5px;
+$shadow-default: 0 1px 5px 0 rgba($gray5, 0.5);

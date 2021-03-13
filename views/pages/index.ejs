@@ -1,11 +1,69 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="stylesheets/antd.sites.css">
-    <link rel="stylesheet" href="stylesheets/main.css">
-  </head>
-  <body>
-    <div id="app">Waiting for ClojureScript...</div>
-    <script src="main.js"></script>
-  </body>
-</html>
+<%- include('../partials/head'); %>
+<div class="welcome">
+  <div class="section">
+    <div class="display-flex justify-space-between align-items-stretch">
+      <div>
+        <div class="logo">
+          <img width="250px" src="images/picasso-logo-block-with-tag.svg"/>
+        </div>
+        <h1>Picasso for Sprint Teams</h1>
+        <h3 style="width: 420px">
+          Build things that are useful and unique with the Picasso Design System.
+        </h3>
+        <a class="btn" href="/sketch">Start here</a>
+      </div>
+      <div>
+        <img width="450px" src="images/team.svg"/>
+      </div>
+    </div>
+  </div>
+  <div class="section bg-cream">
+    <div>
+      <h2>Getting started</h2>
+      <p>Bring the Picasso Design System into your sprint to iterate more confidently, introduce fewer bugs, and increase your overall velocity. Wow! Let's explore how Picasso can be the MVP of your sprint.</p>
+    </div>
+    <nav class="o-blocks">
+      <div class="o-blocks__block">
+        <div class="o-blocks__block__inner">
+          <span class="icon"></span>
+          <h3>Start with a sketch.</h3>
+          <p>Use Balsamiq Mockups to create a low fidelity concept. Spread the ideas around, iterate and refine.</p>
+          <a class="btn" href="/sketch">Start here</a>
+        </div>
+      </div>
+      <div class="o-blocks__block">
+        <div class="o-blocks__block__inner">
+          <span class="icon"></span>
+          <h3>Pixel perfect UI.</h3>
+          <p>Turn up the fidelity with pixel perfect UI Kits from Figma. Provide a proper lift to drafted concept.</p>
+          <a class="btn" href="/design">Start here</a>
+        </div>
+      </div>
+      <div class="o-blocks__block">
+        <div class="o-blocks__block__inner">
+          <span class="icon"></span>
+          <h3>Listen. Present. Validate.</h3>
+          <p>Present and listen to the experience of our customers. Create an interactive prototype using Figma or create something from one of our boiler-plate starter projects.</p>
+          <a class="btn" href="/validate">Start here</a>
+        </div>
+      </div>
+      <div class="o-blocks__block">
+        <div class="o-blocks__block__inner">
+          <span class="icon"></span>
+          <h3>Planning & tactics</h3>
+          <p>Identify patterns in your design. Using the Atomic Design philosophy and Picasso's best practices, map out a plan for assembling your DOM.</p>
+          <a class="btn" href="/plan">Start here</a>
+        </div>
+      </div>
+      <div class="o-blocks__block">
+        <div class="o-blocks__block__inner">
+          <span class="icon"></span>
+          <h3>Front-end Zen</h3>
+          <p>Build a beautiful front-end with speed and percision. Use our AOBI CSS guide to write clean CSS code. Take advantage of our UI patterns and write less CSS overall.</p>
+          <a class="btn" href="/sprint">Start here</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+<%- include('../partials/footer'); %>
