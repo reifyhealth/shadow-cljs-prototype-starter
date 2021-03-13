@@ -3,54 +3,24 @@
   .logo {
     margin-bottom: 24px;
   }
-
-  .section {
-    h1 { font-weight: 700 }
-  }
-}
-
-.section {
-  padding: 40px;
-  h1 { font-weight: 700 }
 }
 
 .o-blocks {
   display: flex;
   flex-wrap: wrap;
-  border-top: 1px solid $cream;
-  border-left: 1px solid $cream;
+  // border-top: 8px solid $cream;
+  // border-left: 8px solid $cream;
 
   &__block {
     flex: 1 0 auto;
     width: 50%;
     background: white;
-    border-right: 1px solid $cream;
-    border-bottom: 1px solid $cream;
+    border-right: 8px solid $cream;
+    border-bottom: 8px solid $cream;
 
     &__inner {
       padding: 24px;
       margin: 24px;
     }
-  }
-}
-
-.o-page-nav {
-  width: 140px;
-  border-right: 1px solid $gray4;
-  padding: 16px;
-
-  a {
-    display: block;
-    padding: 8px;
-  }
-}
-
-.o-jump-to-nav {
-  display: flex;
-  padding: 16px;
-  border-left: 1px solid $gray5;
-  
-  span,a {
-    margin-right: 24px;
   }
 }

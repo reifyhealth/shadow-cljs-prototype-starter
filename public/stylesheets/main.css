@@ -8060,35 +8060,36 @@ body {
 .text-align-left {
   text-align: left; }
 
+.section {
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+  min-width: 900px; }
+  .section h1 {
+    font-weight: 700; }
+  .section .sub-section {
+    margin-top: 24px;
+    padding: 24px 0; }
+
 .welcome {
   font-size: 1.2rem; }
   .welcome .logo {
     margin-bottom: 24px; }
-  .welcome .section h1 {
-    font-weight: 700; }
-
-.section {
-  padding: 40px; }
-  .section h1 {
-    font-weight: 700; }
 
 .o-blocks {
   display: flex;
-  flex-wrap: wrap;
-  border-top: 1px solid #F4F2EF;
-  border-left: 1px solid #F4F2EF; }
+  flex-wrap: wrap; }
   .o-blocks__block {
     flex: 1 0 auto;
     width: 50%;
     background: white;
-    border-right: 1px solid #F4F2EF;
-    border-bottom: 1px solid #F4F2EF; }
+    border-right: 8px solid #F4F2EF;
+    border-bottom: 8px solid #F4F2EF; }
     .o-blocks__block__inner {
       padding: 24px;
       margin: 24px; }
 
 .o-page-nav {
-  width: 140px;
   border-right: 1px solid #f0f0f0;
   padding: 16px; }
   .o-page-nav a {
