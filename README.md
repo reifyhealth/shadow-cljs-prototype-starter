@@ -8,11 +8,11 @@ This application supports the [Getting Started on Heroku with Node.js](https://d
 
 Make sure you have [Node.js](http://nodejs.org/), Clojurescript, and the [Heroku CLI](https://cli.heroku.com/) installed.
 
-**TL;DR**
+_TL;DR_
 In 3 terminal windows, run:
 * `$ npm run start`
 * `$ npm run watch`
-* `$ npm run scss`
+* `$ npm run SCSS`
 ```
 
 $ git clone https://github.com/andreortiz82/shadow-cljs-prototype-starter.git
@@ -20,7 +20,7 @@ $ cd shadow-cljs-prototype-starter
 $ npm install
 $ npm run start
 
-// You can also run this instead of npm start:
+// You can also run this instead of npm start: 
 $ heroku local web
 
 ```
@@ -33,7 +33,7 @@ $ npm run watch
 ```
 
 ### Running the SCSS
-In another terminal window, compile your SCSS. To compile the SCSS, run:
+In another terminal window, compile your SCSS. To compile the SCSS, run: 
 
 ```
 $ node-sass scss/main.scss public/stylesheets/main.css

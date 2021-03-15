@@ -2,13 +2,10 @@
 node_modules
 npm-debug.log
 
-# CLJS build artifacts
-.shadow-cljs
-public/cljs-runtime
-
 # Local development
 *.env
 *.dev
+.shadow-cljs/
 .DS_Store
 
 # Docker

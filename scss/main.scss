@@ -1,21 +1,11 @@
-$fa-font-path: "/fonts/webfonts";
-@import "fontawesome/duotone.scss";
-@import "settings/colors";
-@import "settings/variables";
-@import "settings/typography";
+$custom: #f5f5f5;
+$custom-color: white;
 
-@import "tools/mixins";
-@import "tools/functions";
-@import "tools/animations";
+body {
+  background: $custom;
+  font-family: sans-serif;
 
-@import "generic/global";
-@import "generic/colors";
-@import "generic/grid-layout";
-@import "generic/helpers";
-@import "generic/typography";
-
-@import "objects/layout.scss";
-@import "objects/welcome.scss";
-@import "objects/nav.scss";
-@import "objects/banner.scss";
-@import "components/colors-component.scss";
+  h1 {
+    text-decoration: underline;
+  }
+}

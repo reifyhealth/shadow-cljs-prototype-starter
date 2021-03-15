@@ -15,10 +15,4 @@ app.use('/', basicAuth({
 }));
 app.use(express.static(path.join(__dirname, 'public')))
 app.get('/', (req, res) => res.render('pages/index'))
-app.get('/sketch', (req, res) => (res.render('pages/sketch')))
-app.get('/design', (req, res) => res.render('pages/design'))
-app.get('/validate', (req, res) => res.render('pages/validate'))
-app.get('/plan', (req, res) => res.render('pages/plan'))
-app.get('/frontend', (req, res) => res.render('pages/frontend'))
-
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))

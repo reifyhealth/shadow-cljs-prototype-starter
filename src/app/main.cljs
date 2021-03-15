@@ -1,21 +1,27 @@
 (ns app.main
   (:require
-    [clojure.string :as str]
-    [reagent.core :as r :refer [atom]]
-    [app.data :as data]
-    [app.colors :refer [ColorsComponent]]
-    [app.helpers :refer [HelpersComponent]]))
+   [reagent.core :as r :refer [atom]]
+   ["antd" :refer [Button message.info]]))
+
+(defn app
+  []
+  [:div.padding-xl
+   [:h1 "ClojureScript!"]
+   [:> Button
+    {:on-click
+      #(message.info
+        #js{:content "Boom!"
+            :icon
+            (r/as-element
+              [:span.margin-right-sm "💥"])})}
+    "Click me"]])
 
 (defn mount []
-  (when (.getElementById js/document "cljs-ui-colors")
-    (r/render
-      [ColorsComponent]
-      (.getElementById js/document "cljs-ui-colors")))
-
-  (when (.getElementById js/document "cljs-css-helpers")
-    (r/render
-      [HelpersComponent]
-      (.getElementById js/document "cljs-css-helpers"))))
+  (r/render
+   [app]
+   (.getElementById
+    js/document
+    "app")))
 
 (defn reload! []
   (println "App reloaded!")
