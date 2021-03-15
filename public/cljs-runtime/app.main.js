@@ -1,7 +1,12 @@
 goog.provide('app.main');
 app.main.mount = (function app$main$mount(){
-if(cljs.core.truth_(document.getElementById("cljs-demo"))){
-return reagent.core.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"cljs here"], null),document.getElementById("cljs-demo"));
+if(cljs.core.truth_(document.getElementById("cljs-ui-colors"))){
+reagent.core.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.colors.ColorsComponent], null),document.getElementById("cljs-ui-colors"));
+} else {
+}
+
+if(cljs.core.truth_(document.getElementById("cljs-css-helpers"))){
+return reagent.core.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.helpers.HelpersComponent], null),document.getElementById("cljs-css-helpers"));
 } else {
 return null;
 }

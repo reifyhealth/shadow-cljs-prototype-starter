@@ -1,26 +1,10 @@
-.welcome {
-  font-size: 1.2rem;
+.o-welcome-banner {
+  h1 {
+    font-weight: 700;
+  }
   .logo {
     margin-bottom: 24px;
-  }
-}
-
-.o-blocks {
-  display: flex;
-  flex-wrap: wrap;
-  // border-top: 8px solid $cream;
-  // border-left: 8px solid $cream;
-
-  &__block {
-    flex: 1 0 auto;
-    width: 50%;
-    background: white;
-    border-right: 8px solid $cream;
-    border-bottom: 8px solid $cream;
-
-    &__inner {
-      padding: 24px;
-      margin: 24px;
-    }
+    width: 250px;
+    img { width: 100%; }
   }
 }

@@ -1,30 +1,59 @@
 <%- include('../partials/head'); %>
 <div class="display-flex">
   <%- include('../partials/nav-list'); %>
-  <div class="section">
+  <div class="o-section">
     <h1>Start with a sketch.</h1>
     <nav class="o-jump-to-nav">
       <span class="text-gray6">Jump to section</span>
       <a href="/sketch#downloads">Downloads</a>
       <a href="/sketch#examples">Examples</a>
-      <a href="/sketch#whylofi">Why Lofi?</a>
+      <a href="/sketch#atomic">Atomic Design</a>
     </nav>
 
-    <div id="downloads" class="sub-section">
-      <h3>Downloads</h3>
-      <p>Download the balsamiq mockup kit and start creating your mockup.</p>
+    <div id="downloads" class="o-section__sub-section">
+      <%- include('../partials/download', {title: "Balsamiq Mockups", description: "Download the balsamiq mockup kit and start creating your mockup.", url: "#foo", thumbnail: "images/balsamiq/b-thumbnail.png"}); %>
     </div>
 
-    <div id="examples" class="sub-section">
-      <h3>Examples</h3>
-      <p>See what you can create</p>
-    </div>
+    <div id="examples" class="o-section__sub-section">
+      <h2>Balsamiq IRL</h2>
+      <p>Create meaningful artifacts that can shared and refined without the added weight of visual distractions.</p>
 
-    <div id="whylofi" class="sub-section">
-      <h3>Why you should create Lofi mockups</h3>
-      <p>Words...</p>
+      <div class="o-section__sub-section__group">
+        <div class="thumbnail margin-right-lg">
+          <img src="images/balsamiq/b2.png" alt="">
+        </div>
+        <div class="content">
+          <h3>Iterate quickly</h3>
+          <p>Using small, atomic elements, assemble your thoughts on the page as quick as you can.</p>
+        </div>
+      </div>
+
+      <div class="o-section__sub-section__group">
+        <div class="content">
+          <h3>Communicate the details</h3>
+          <p>Mark things up to communicate a flow. Outline the process in a liner fashion.</p>
+        </div>
+        <div class="thumbnail margin-left-lg">
+          <img src="images/balsamiq/b3.png" alt="">
+        </div>
+      </div>
+
+      <div class="o-section__sub-section__group">
+        <div class="thumbnail margin-right-lg">
+          <img src="images/balsamiq/b1.png" alt="">
+        </div>
+        <div class="content">
+          <h3>Keep it simple</h3>
+          <p>Don't get hung-up on aethetics. Communicate your concept in simple terms. Let the workflow shine through.</p>
+        </div>
+      </div>
     </div>
   </div>
-
+</div>
+<div class="o-big-cream">
+  <div id="atomic" class="o-section">
+    <h3>Atomic Design</h3>
+    <p>Hand-drawn concepts are one of our most primative forms of communicating ideas.</p>
+  </div>
 </div>
 <%- include('../partials/footer'); %>

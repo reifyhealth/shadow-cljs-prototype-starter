@@ -1,7 +1,7 @@
 <%- include('../partials/head'); %>
 <div class="display-flex">
   <%- include('../partials/nav-list'); %>
-  <div class="section">
+  <div class="o-section">
     <h1>Listen. Present. Validate.</h1>
     <nav class="o-jump-to-nav">
       <span class="text-gray6">Jump to section</span>
@@ -10,20 +10,47 @@
       <a href="/validate#frontend">Front-end Help</a>
     </nav>
 
-    <div id="repos" class="sub-section">
-      <h3>Prototypes</h3>
-      <p>...</p>
+    <div id="downloads" class="o-section__sub-section">
+      <div class="display-flex">
+        <%- include('../partials/download', {title: "CLJS Project", description: "Prototype starter project using shadow-cljs.", url: "https://github.com/reifyhealth/shadow-cljs-prototype-starter", thumbnail: "images/design/design-banner.png"}); %>
+        <%- include('../partials/download', {title: "React JS Project", description: "Prototype starter project using reactjs.", url: "#foo", thumbnail: "images/design/design-banner.png"}); %>
+      </div>
+
     </div>
 
-    <div id="demos" class="sub-section">
-      <h3>Live Demos</h3>
-      <p>...</p>
-    </div>
+    <div id="examples" class="o-section__sub-section">
+      <div class="o-section__sub-section__group">
+        <span>
+          <h2>Live Demos</h2>
+          <p>Here is a short list of the prototypes we have in the wild. Section is WIP...</p>
 
-    <div id="frontend" class="sub-section">
-      <h3>Front-end speed</h3>
-      <p>...</p>
+          <ul>
+            <li><a href="#">Bulk Import</a></li>
+            <li><a href="#">Protocol Activity Manager</a></li>
+            <li><a href="#">Visit Management</a></li>
+            <li><a href="#">Protocol Digitization</a></li>
+          </ul>
+        </span>
+        <img width="750px" src="images/design/d1.jpg" alt="">
+      </div>
     </div>
   </div>
 </div>
+
+<div class="o-big-cream">
+  <div id="antd-principals" class="o-section">
+    <div class="display-flex padding-top-50 padding-bottom-50">
+      <div class="content">
+        <h3>Ant Design Values</h3>
+        <p>The design values of Ant Design provide designers with internal standards for evaluation, enlighten and inspire the design principles and design patterns, and then offer guidance and general solutions for specific design problems.</p>
+        <a class="btn" href="https://ant.design/docs/spec/overview" target="_blank">
+          View the guides
+        </a>
+      </div>
+      <img width="500px" src="images/design/antd-banner.jpg" alt="">
+
+    </div>
+  </div>
+</div>
+
 <%- include('../partials/footer'); %>

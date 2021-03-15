@@ -1,0 +1,674 @@
+{
+  "primary":[
+    {"title": "Site Primary", "color": "#589952", "name": "$site-base"},
+    {"title": "Sponsor Primary", "color": "#40ABB0", "name": "$sponsor-base"},
+    {"title": "Reify Primary", "color": "#FF7575", "name": "$horizon"}
+  ],
+  "secondary":[
+    {"title": "Site Secondary", "color": "#f4f2ef", "name": "$cream"},
+    {"title": "Sponsor Secondary", "color": "#f1f3f3", "name": "$light"},
+    {"title": "Reify Secondary", "color": "#0F3647", "name": "$spruce"}
+  ],
+  "variables": [
+    {
+      "name": "$black",
+      "value": "#000000",
+      "compiledValue": "#000000"
+    },
+    {
+      "name": "$white",
+      "value": "#fff",
+      "compiledValue": "#fff"
+    },
+    {
+      "name": "$gray1",
+      "value": "#ffffff",
+      "compiledValue": "#ffffff"
+    },
+    {
+      "name": "$gray2",
+      "value": "#fafafa",
+      "compiledValue": "#fafafa"
+    },
+    {
+      "name": "$gray3",
+      "value": "#f5f5f5",
+      "compiledValue": "#f5f5f5"
+    },
+    {
+      "name": "$gray4",
+      "value": "#f0f0f0",
+      "compiledValue": "#f0f0f0"
+    },
+    {
+      "name": "$gray5",
+      "value": "#d9d9d9",
+      "compiledValue": "#d9d9d9"
+    },
+    {
+      "name": "$gray6",
+      "value": "#bfbfbf",
+      "compiledValue": "#bfbfbf"
+    },
+    {
+      "name": "$gray7",
+      "value": "#8c8c8c",
+      "compiledValue": "#8c8c8c"
+    },
+    {
+      "name": "$gray8",
+      "value": "#595959",
+      "compiledValue": "#595959"
+    },
+    {
+      "name": "$gray9",
+      "value": "#434343",
+      "compiledValue": "#434343"
+    },
+    {
+      "name": "$gray10",
+      "value": "#262626",
+      "compiledValue": "#262626"
+    },
+    {
+      "name": "$magenta1",
+      "value": "#fff0f6",
+      "compiledValue": "#fff0f6"
+    },
+    {
+      "name": "$magenta2",
+      "value": "#ffd6e7",
+      "compiledValue": "#ffd6e7"
+    },
+    {
+      "name": "$magenta3",
+      "value": "#ffadd2",
+      "compiledValue": "#ffadd2"
+    },
+    {
+      "name": "$magenta4",
+      "value": "#ff85c0",
+      "compiledValue": "#ff85c0"
+    },
+    {
+      "name": "$magenta5",
+      "value": "#f759ab",
+      "compiledValue": "#f759ab"
+    },
+    {
+      "name": "$magenta6",
+      "value": "#eb2f96",
+      "compiledValue": "#eb2f96"
+    },
+    {
+      "name": "$magenta7",
+      "value": "#c41d7f",
+      "compiledValue": "#c41d7f"
+    },
+    {
+      "name": "$magenta8",
+      "value": "#9e1068",
+      "compiledValue": "#9e1068"
+    },
+    {
+      "name": "$magenta9",
+      "value": "#780650",
+      "compiledValue": "#780650"
+    },
+    {
+      "name": "$magenta10",
+      "value": "#520339",
+      "compiledValue": "#520339"
+    },
+    {
+      "name": "$red1",
+      "value": "#fff1f0",
+      "compiledValue": "#fff1f0"
+    },
+    {
+      "name": "$red2",
+      "value": "#ffccc7",
+      "compiledValue": "#ffccc7"
+    },
+    {
+      "name": "$red3",
+      "value": "#ffa39e",
+      "compiledValue": "#ffa39e"
+    },
+    {
+      "name": "$red4",
+      "value": "#ff7875",
+      "compiledValue": "#ff7875"
+    },
+    {
+      "name": "$red5",
+      "value": "#ff4d4f",
+      "compiledValue": "#ff4d4f"
+    },
+    {
+      "name": "$red6",
+      "value": "#f5222d",
+      "compiledValue": "#f5222d"
+    },
+    {
+      "name": "$red7",
+      "value": "#cf1322",
+      "compiledValue": "#cf1322"
+    },
+    {
+      "name": "$red8",
+      "value": "#a8071a",
+      "compiledValue": "#a8071a"
+    },
+    {
+      "name": "$red9",
+      "value": "#820014",
+      "compiledValue": "#820014"
+    },
+    {
+      "name": "$red10",
+      "value": "#5c0011",
+      "compiledValue": "#5c0011"
+    },
+    {
+      "name": "$volcano1",
+      "value": "#fff2e8",
+      "compiledValue": "#fff2e8"
+    },
+    {
+      "name": "$volcano2",
+      "value": "#ffd8bf",
+      "compiledValue": "#ffd8bf"
+    },
+    {
+      "name": "$volcano3",
+      "value": "#ffbb96",
+      "compiledValue": "#ffbb96"
+    },
+    {
+      "name": "$volcano4",
+      "value": "#ff9c6e",
+      "compiledValue": "#ff9c6e"
+    },
+    {
+      "name": "$volcano5",
+      "value": "#ff7a45",
+      "compiledValue": "#ff7a45"
+    },
+    {
+      "name": "$volcano6",
+      "value": "#fa541c",
+      "compiledValue": "#fa541c"
+    },
+    {
+      "name": "$volcano7",
+      "value": "#d4380d",
+      "compiledValue": "#d4380d"
+    },
+    {
+      "name": "$volcano8",
+      "value": "#ad2102",
+      "compiledValue": "#ad2102"
+    },
+    {
+      "name": "$volcano9",
+      "value": "#871400",
+      "compiledValue": "#871400"
+    },
+    {
+      "name": "$volcano10",
+      "value": "#610b00",
+      "compiledValue": "#610b00"
+    },
+    {
+      "name": "$orange1",
+      "value": "#fff7e6",
+      "compiledValue": "#fff7e6"
+    },
+    {
+      "name": "$orange2",
+      "value": "#ffe7ba",
+      "compiledValue": "#ffe7ba"
+    },
+    {
+      "name": "$orange3",
+      "value": "#ffd591",
+      "compiledValue": "#ffd591"
+    },
+    {
+      "name": "$orange4",
+      "value": "#ffc069",
+      "compiledValue": "#ffc069"
+    },
+    {
+      "name": "$orange5",
+      "value": "#ffa940",
+      "compiledValue": "#ffa940"
+    },
+    {
+      "name": "$orange6",
+      "value": "#fa8c16",
+      "compiledValue": "#fa8c16"
+    },
+    {
+      "name": "$orange7",
+      "value": "#d46b08",
+      "compiledValue": "#d46b08"
+    },
+    {
+      "name": "$orange8",
+      "value": "#ad4e00",
+      "compiledValue": "#ad4e00"
+    },
+    {
+      "name": "$orange9",
+      "value": "#873800",
+      "compiledValue": "#873800"
+    },
+    {
+      "name": "$orange10",
+      "value": "#612500",
+      "compiledValue": "#612500"
+    },
+    {
+      "name": "$gold1",
+      "value": "#fffbe6",
+      "compiledValue": "#fffbe6"
+    },
+    {
+      "name": "$gold2",
+      "value": "#fff1b8",
+      "compiledValue": "#fff1b8"
+    },
+    {
+      "name": "$gold3",
+      "value": "#ffe58f",
+      "compiledValue": "#ffe58f"
+    },
+    {
+      "name": "$gold4",
+      "value": "#ffd666",
+      "compiledValue": "#ffd666"
+    },
+    {
+      "name": "$gold5",
+      "value": "#ffc53d",
+      "compiledValue": "#ffc53d"
+    },
+    {
+      "name": "$gold6",
+      "value": "#faad14",
+      "compiledValue": "#faad14"
+    },
+    {
+      "name": "$gold7",
+      "value": "#d48806",
+      "compiledValue": "#d48806"
+    },
+    {
+      "name": "$gold8",
+      "value": "#ad6800",
+      "compiledValue": "#ad6800"
+    },
+    {
+      "name": "$gold9",
+      "value": "#874d00",
+      "compiledValue": "#874d00"
+    },
+    {
+      "name": "$gold10",
+      "value": "#613400",
+      "compiledValue": "#613400"
+    },
+    {
+      "name": "$yellow1",
+      "value": "#feffe6",
+      "compiledValue": "#feffe6"
+    },
+    {
+      "name": "$yellow2",
+      "value": "#ffffb8",
+      "compiledValue": "#ffffb8"
+    },
+    {
+      "name": "$yellow3",
+      "value": "#fffb8f",
+      "compiledValue": "#fffb8f"
+    },
+    {
+      "name": "$yellow4",
+      "value": "#fff566",
+      "compiledValue": "#fff566"
+    },
+    {
+      "name": "$yellow5",
+      "value": "#ffec3d",
+      "compiledValue": "#ffec3d"
+    },
+    {
+      "name": "$yellow6",
+      "value": "#fadb14",
+      "compiledValue": "#fadb14"
+    },
+    {
+      "name": "$yellow7",
+      "value": "#d4b106",
+      "compiledValue": "#d4b106"
+    },
+    {
+      "name": "$yellow8",
+      "value": "#ad8b00",
+      "compiledValue": "#ad8b00"
+    },
+    {
+      "name": "$yellow9",
+      "value": "#876800",
+      "compiledValue": "#876800"
+    },
+    {
+      "name": "$yellow10",
+      "value": "#614700",
+      "compiledValue": "#614700"
+    },
+    {
+      "name": "$lime1",
+      "value": "#fcffe6",
+      "compiledValue": "#fcffe6"
+    },
+    {
+      "name": "$lime2",
+      "value": "#f4ffb8",
+      "compiledValue": "#f4ffb8"
+    },
+    {
+      "name": "$lime3",
+      "value": "#eaff8f",
+      "compiledValue": "#eaff8f"
+    },
+    {
+      "name": "$lime4",
+      "value": "#d3f261",
+      "compiledValue": "#d3f261"
+    },
+    {
+      "name": "$lime5",
+      "value": "#bae637",
+      "compiledValue": "#bae637"
+    },
+    {
+      "name": "$lime6",
+      "value": "#a0d911",
+      "compiledValue": "#a0d911"
+    },
+    {
+      "name": "$lime7",
+      "value": "#7cb305",
+      "compiledValue": "#7cb305"
+    },
+    {
+      "name": "$lime8",
+      "value": "#5b8c00",
+      "compiledValue": "#5b8c00"
+    },
+    {
+      "name": "$lime9",
+      "value": "#3f6600",
+      "compiledValue": "#3f6600"
+    },
+    {
+      "name": "$lime10",
+      "value": "#254000",
+      "compiledValue": "#254000"
+    },
+    {
+      "name": "$green1",
+      "value": "#f6ffed",
+      "compiledValue": "#f6ffed"
+    },
+    {
+      "name": "$green2",
+      "value": "#d9f7be",
+      "compiledValue": "#d9f7be"
+    },
+    {
+      "name": "$green3",
+      "value": "#b7eb8f",
+      "compiledValue": "#b7eb8f"
+    },
+    {
+      "name": "$green4",
+      "value": "#73d13d",
+      "compiledValue": "#73d13d"
+    },
+    {
+      "name": "$green5",
+      "value": "#73d13d",
+      "compiledValue": "#73d13d"
+    },
+    {
+      "name": "$green6",
+      "value": "#52c41a",
+      "compiledValue": "#52c41a"
+    },
+    {
+      "name": "$green7",
+      "value": "#389e0d",
+      "compiledValue": "#389e0d"
+    },
+    {
+      "name": "$green8",
+      "value": "#237804",
+      "compiledValue": "#237804"
+    },
+    {
+      "name": "$green9",
+      "value": "#135200",
+      "compiledValue": "#135200"
+    },
+    {
+      "name": "$green10",
+      "value": "#092b00",
+      "compiledValue": "#092b00"
+    },
+    {
+      "name": "$cyan1",
+      "value": "#e6fffb",
+      "compiledValue": "#e6fffb"
+    },
+    {
+      "name": "$cyan2",
+      "value": "#b5f5ec",
+      "compiledValue": "#b5f5ec"
+    },
+    {
+      "name": "$cyan3",
+      "value": "#87e8de",
+      "compiledValue": "#87e8de"
+    },
+    {
+      "name": "$cyan4",
+      "value": "#5cdbd3",
+      "compiledValue": "#5cdbd3"
+    },
+    {
+      "name": "$cyan5",
+      "value": "#36cfc9",
+      "compiledValue": "#36cfc9"
+    },
+    {
+      "name": "$cyan6",
+      "value": "#13c2c2",
+      "compiledValue": "#13c2c2"
+    },
+    {
+      "name": "$cyan7",
+      "value": "#08979c",
+      "compiledValue": "#08979c"
+    },
+    {
+      "name": "$cyan8",
+      "value": "#006d75",
+      "compiledValue": "#006d75"
+    },
+    {
+      "name": "$cyan9",
+      "value": "#00474f",
+      "compiledValue": "#00474f"
+    },
+    {
+      "name": "$cyan10",
+      "value": "#002329",
+      "compiledValue": "#002329"
+    },
+    {
+      "name": "$blue1",
+      "value": "#e6f7ff",
+      "compiledValue": "#e6f7ff"
+    },
+    {
+      "name": "$blue2",
+      "value": "#bae7ff",
+      "compiledValue": "#bae7ff"
+    },
+    {
+      "name": "$blue3",
+      "value": "#91d5ff",
+      "compiledValue": "#91d5ff"
+    },
+    {
+      "name": "$blue4",
+      "value": "#69c0ff",
+      "compiledValue": "#69c0ff"
+    },
+    {
+      "name": "$blue5",
+      "value": "#40a9ff",
+      "compiledValue": "#40a9ff"
+    },
+    {
+      "name": "$blue6",
+      "value": "#1890ff",
+      "compiledValue": "#1890ff"
+    },
+    {
+      "name": "$blue7",
+      "value": "#096dd9",
+      "compiledValue": "#096dd9"
+    },
+    {
+      "name": "$blue8",
+      "value": "#0050b3",
+      "compiledValue": "#0050b3"
+    },
+    {
+      "name": "$blue9",
+      "value": "#003a8c",
+      "compiledValue": "#003a8c"
+    },
+    {
+      "name": "$blue10",
+      "value": "#002766",
+      "compiledValue": "#002766"
+    },
+    {
+      "name": "$greek1",
+      "value": "#f0f5ff",
+      "compiledValue": "#f0f5ff"
+    },
+    {
+      "name": "$greek2",
+      "value": "#d6e4ff",
+      "compiledValue": "#d6e4ff"
+    },
+    {
+      "name": "$greek3",
+      "value": "#adc6ff",
+      "compiledValue": "#adc6ff"
+    },
+    {
+      "name": "$greek4",
+      "value": "#85a5ff",
+      "compiledValue": "#85a5ff"
+    },
+    {
+      "name": "$greek5",
+      "value": "#597ef7",
+      "compiledValue": "#597ef7"
+    },
+    {
+      "name": "$greek6",
+      "value": "#2f54eb",
+      "compiledValue": "#2f54eb"
+    },
+    {
+      "name": "$greek7",
+      "value": "#1d39c4",
+      "compiledValue": "#1d39c4"
+    },
+    {
+      "name": "$greek8",
+      "value": "#10239e",
+      "compiledValue": "#10239e"
+    },
+    {
+      "name": "$greek9",
+      "value": "#061178",
+      "compiledValue": "#061178"
+    },
+    {
+      "name": "$greek10",
+      "value": "#030852",
+      "compiledValue": "#030852"
+    },
+    {
+      "name": "$purple1",
+      "value": "#f9f0ff",
+      "compiledValue": "#f9f0ff"
+    },
+    {
+      "name": "$purple2",
+      "value": "#efdbff",
+      "compiledValue": "#efdbff"
+    },
+    {
+      "name": "$purple3",
+      "value": "#d3adf7",
+      "compiledValue": "#d3adf7"
+    },
+    {
+      "name": "$purple4",
+      "value": "#b37feb",
+      "compiledValue": "#b37feb"
+    },
+    {
+      "name": "$purple5",
+      "value": "#9254de",
+      "compiledValue": "#9254de"
+    },
+    {
+      "name": "$purple6",
+      "value": "#722ed1",
+      "compiledValue": "#722ed1"
+    },
+    {
+      "name": "$purple7",
+      "value": "#531dab",
+      "compiledValue": "#531dab"
+    },
+    {
+      "name": "$purple8",
+      "value": "#391085",
+      "compiledValue": "#391085"
+    },
+    {
+      "name": "$purple9",
+      "value": "#22075e",
+      "compiledValue": "#22075e"
+    },
+    {
+      "name": "$purple10",
+      "value": "#120338",
+      "compiledValue": "#120338"
+    }
+  ]
+}

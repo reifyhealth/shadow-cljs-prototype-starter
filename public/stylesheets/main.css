@@ -8060,21 +8060,44 @@ body {
 .text-align-left {
   text-align: left; }
 
-.section {
+.o-big-cream {
+  border-radius: 3px;
+  background: #F4F2EF; }
+  .o-big-cream .o-thumbnail--framed {
+    background: white;
+    padding: 16px; }
+
+.o-big-white {
+  border-radius: 3px;
+  background: #fff;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0; }
+
+.o-section {
   padding: 40px;
   width: 80%;
   margin: auto;
-  min-width: 900px; }
-  .section h1 {
-    font-weight: 700; }
-  .section .sub-section {
-    margin-top: 24px;
+  min-width: 850px; }
+  .o-section__section-intro {
+    font-size: 1.2rem; }
+  .o-section__sub-section {
+    margin: 24px 0;
     padding: 24px 0; }
-
-.welcome {
-  font-size: 1.2rem; }
-  .welcome .logo {
-    margin-bottom: 24px; }
+    .o-section__sub-section__group {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-around;
+      margin: 40px 0;
+      border-top: 1px solid #f0f0f0;
+      padding-top: 40px; }
+      .o-section__sub-section__group .thumbnail,
+      .o-section__sub-section__group .content {
+        flex: 0 0 auto;
+        width: 50%; }
+      .o-section__sub-section__group .thumbnail img {
+        width: 80%; }
+      .o-section__sub-section__group .content {
+        padding: 24px; }
 
 .o-blocks {
   display: flex;
@@ -8089,6 +8112,15 @@ body {
       padding: 24px;
       margin: 24px; }
 
+.o-welcome-banner h1 {
+  font-weight: 700; }
+
+.o-welcome-banner .logo {
+  margin-bottom: 24px;
+  width: 250px; }
+  .o-welcome-banner .logo img {
+    width: 100%; }
+
 .o-page-nav {
   border-right: 1px solid #f0f0f0;
   padding: 16px; }
@@ -8102,3 +8134,38 @@ body {
   border-left: 1px solid #d9d9d9; }
   .o-jump-to-nav span, .o-jump-to-nav a {
     margin-right: 24px; }
+
+.btn {
+  border-radius: 1000px;
+  border: 3px solid #F4F2EF;
+  background: white;
+  display: inline-block;
+  padding: 8px 24px;
+  color: black; }
+  .btn:hover {
+    color: #FF7575;
+    border: 3px solid #FF7575; }
+
+.o-download-banner {
+  border-radius: 3px;
+  padding: 24px;
+  background: #F4F2EF; }
+  .o-download-banner .thumbnail {
+    background: white;
+    text-align: center;
+    padding: 16px;
+    max-width: 300px; }
+    .o-download-banner .thumbnail img {
+      width: 80%;
+      margin: auto; }
+
+.c-ColorsComponent {
+  display: flex;
+  flex-wrap: wrap; }
+  .c-ColorsComponent__color {
+    flex: 0 0 auto;
+    width: 20%;
+    padding: 16px; }
+    .c-ColorsComponent__color__swatch {
+      width: 200px;
+      height: 48px; }

@@ -1,5 +1,6 @@
 {:source-paths ["src"]
- :dependencies [[reagent "0.8.1"]]
+ :dependencies [[reagent "0.8.1"]
+                [cljs-ajax "0.7.5"]]
  :dev-http {8080 "public/"}
  :builds {:app {:output-dir "public/"
                 :asset-path "."

@@ -17,3 +17,17 @@
     margin-right: 24px;
   }
 }
+
+.btn {
+  @include border-radius($round);
+  border: 3px solid $cream;
+  background: white;
+  display: inline-block;
+  padding: 8px 24px;
+  color: black;
+
+  &:hover {
+    color: $horizon;
+    border: 3px solid $horizon;
+  }
+}

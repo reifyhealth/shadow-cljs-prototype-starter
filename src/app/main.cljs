@@ -2,13 +2,20 @@
   (:require
     [clojure.string :as str]
     [reagent.core :as r :refer [atom]]
-    [app.data :as data]))
+    [app.data :as data]
+    [app.colors :refer [ColorsComponent]]
+    [app.helpers :refer [HelpersComponent]]))
 
 (defn mount []
-  (when (.getElementById js/document "cljs-demo")
+  (when (.getElementById js/document "cljs-ui-colors")
     (r/render
-      [:div "cljs here"]
-      (.getElementById js/document "cljs-demo"))))
+      [ColorsComponent]
+      (.getElementById js/document "cljs-ui-colors")))
+
+  (when (.getElementById js/document "cljs-css-helpers")
+    (r/render
+      [HelpersComponent]
+      (.getElementById js/document "cljs-css-helpers"))))
 
 (defn reload! []
   (println "App reloaded!")

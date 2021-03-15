@@ -1,7 +1,7 @@
 <%- include('../partials/head'); %>
 <div class="display-flex">
   <%- include('../partials/nav-list'); %>
-  <div class="section">
+  <div class="o-section">
     <h1>Front-end Zen</h1>
     <nav class="o-jump-to-nav">
       <span class="text-gray6">Jump to section</span>
@@ -11,27 +11,55 @@
       <a href="/frontend#aobi">AOBI CSS Guide</a>
     </nav>
 
-    <div id="colors" class="sub-section">
-      <h3>Colors</h3>
-      <p>Set of colors.</p>
-      <div id="clj-colors"></div>
-    </div>
-
-    <div id="helpers" class="sub-section">
-      <h3>CSS Helpers</h3>
-      <p>Set of helpers</p>
-      <div id="clj-helpers"></div>
-    </div>
-
-    <div id="icons" class="sub-section">
-      <h3>Font Awesome Icons</h3>
-      <p>Set of icons</p>
-    </div>
-
-    <div id="aobi" class="sub-section">
-      <h3>Atomic Object-Oriented Block Element Modifier Inverted Triangle SCSS</h3>
-      <p>wtf?</p>
+    <div id="downloads" class="o-section__sub-section">
+      <div class="display-flex">
+        <%- include('../partials/download', {title: "CLJS Project", description: "Prototype starter project using shadow-cljs.", url: "https://github.com/reifyhealth/shadow-cljs-prototype-starter", thumbnail: "images/design/design-banner.png"}); %>
+        <%- include('../partials/download', {title: "React JS Project", description: "Prototype starter project using reactjs.", url: "#foo", thumbnail: "images/design/design-banner.png"}); %>
+      </div>
     </div>
   </div>
 </div>
+
+<div class="o-big-white">
+  <div id="colors" class="o-section">
+    <h3>UI Colors</h3>
+    <div id="cljs-ui-colors">loading...</div>
+  </div>
+</div>
+
+<div class="o-big-white">
+  <div id="helpers" class="o-section">
+    <h3>CSS Helpers</h3>
+    <div id="cljs-css-helpers">loading...</div>
+  </div>
+</div>
+
+<div class="o-big-cream">
+  <div id="icons" class="o-section">
+    <div class="display-flex align-items-center padding-top-50 padding-bottom-50">
+      <div class="o-thumbnail o-thumbnail--framed margin-right-lg">
+        <a target="_blank" href="https://fontawesome.com"><img width="400px" src="images/design/fontawesome-banner.png" alt=""></a>
+      </div>
+      <span>
+        <h3>Font Awesome 5</h3>
+        <p>Font Awesome, the web's most popular icon set and toolkit. For all the available icons and options, visit the Font Awesome website.</p>
+
+        <a target="_blank" href="https://fontawesome.com" class="btn">Visit FontAwesome</a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div id="antd-principals" class="o-section">
+    <div class="display-flex padding-top-50 padding-bottom-50">
+      <div class="content">
+        <h3>AOBI</h3>
+        <p><i>Atomic Object-Oriented Block Element Modifier Inverted Triangle SCSS</i></p>
+        <p>Section is WIP...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <%- include('../partials/footer'); %>
