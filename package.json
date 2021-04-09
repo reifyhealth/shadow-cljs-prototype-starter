@@ -1,9 +1,9 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
+  "name": "Picasso Prototype Starter Project",
+  "version": "1.0.5",
   "description": "A sample Node.js app using Express 4 and ClojureScript.",
   "engines": {
-    "node": "14.x"
+    "node": "15.x"
   },
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "antd": "^4.12.3",
+    "antd": "^4.15.0",
     "ejs": "^3.1.5",
     "express": "^4.15.2",
     "express-basic-auth": "^1.2.0",

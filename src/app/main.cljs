@@ -1,21 +1,26 @@
 (ns app.main
   (:require
    [reagent.core :as r :refer [atom]]
-   ["antd" :refer [Button message.info]]))
+   ["antd" :refer [Button Space message.info]]))
 
 (defn app
+  "Your super awesome prototype here!"
   []
   [:div.padding-xl
-   [:h1 "ClojureScript!"]
-   [:> Button
-    {:on-click
-      #(message.info
-        #js{:content "Boom!"
-            :icon
-            (r/as-element
-              [:span.margin-right-sm "💥"])})}
-    "Click me"]])
-
+   [:img.margin-bottom-md {:src "picasso-logo-with-tag.svg" :width 180}]
+   [:h1 "Build something useful and unique!"]
+   [:> Space
+    [:> Button
+     {:type :primary
+      :on-click
+       #(message.info
+         #js{:content "Boom!"
+             :icon
+             (r/as-element
+               [:span.margin-right-sm "💥"])})}
+     "Click me"]
+    [:a {:target "_blank" :href "https://picasso-sprints.herokuapp.com/frontend"}
+      [:span.padding-sm "Front-end Zen"]]]])
 (defn mount []
   (r/render
    [app]

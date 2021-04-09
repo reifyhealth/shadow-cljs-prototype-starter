@@ -3,7 +3,9 @@ const basicAuth = require('express-basic-auth')
 const path = require('path')
 const PORT = process.env.PORT || 5000
 const app = express()
-const users = {'picasso' : 'picasso'}
+
+// Set credentials here!
+const users = {'demo' : 'demo'}
 
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
